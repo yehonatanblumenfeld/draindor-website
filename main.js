@@ -40,7 +40,7 @@
     const r = sceneFrame.getBoundingClientRect();
     if (r.bottom > 0 && r.top < innerHeight) {
       const t = (r.top + r.height / 2 - innerHeight / 2) / innerHeight; // -1..1
-      scene.style.setProperty('--y', `${(t * -6).toFixed(2)}%`);
+      scene.style.setProperty('--y', `${(t * -3.5).toFixed(2)}%`);
     }
   };
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
