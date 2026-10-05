@@ -9,14 +9,14 @@
   --bronze-hi: #d9ad72;
   --blue: #3d8fe6;
   --ice: #a8dcf2;
-  --muted: rgba(239, 234, 227, .62);
-  --muted-ink: rgba(23, 19, 15, .62);
+  --muted: rgba(239, 234, 227, .78);
+  --muted-ink: rgba(23, 19, 15, .78);
 
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 
   --serif: "Cormorant Garamond", "Times New Roman", serif;
-  --sans: "Jost", "Futura", system-ui, sans-serif;
+  --sans: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
   --gutter: clamp(20px, 5vw, 72px);
 }
 
@@ -27,9 +27,9 @@ body {
   background: var(--black);
   color: var(--bone);
   font-family: var(--sans);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 17px;
-  line-height: 1.65;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
